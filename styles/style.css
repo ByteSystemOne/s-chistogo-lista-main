@@ -1,0 +1,225 @@
+body{
+    margin:0;
+    background-color: #1e1e1e;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
+    margin:0;
+    padding:0;
+}
+
+.content-section{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 360px;
+    min-height: 100px;
+    margin: auto;
+}
+
+.content-section_theme_dark{
+    color:#fff;
+    background-color: #131313;
+}
+
+.content-section_theme_bright{
+    color:#131313;
+    background-color: #fee42a;
+}
+
+.header{
+padding: 24px 20px;
+display:flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+.cover{
+padding: 7px 24px 32px 20px; /*покажите как вы нашли эти отступы по текущему макету*/
+background-image: url(../images/cover.svg);
+background-repeat: no-repeat;
+background-position: right center;
+background-size: 95% auto;
+}
+
+.intro{
+padding:0 20px 38px;
+}
+
+.reasons{
+padding:40px 20px;
+}
+.how-to{
+padding:40px 20px 60px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+border-top: 1px solid #fee42a;
+padding:20px;
+}
+
+.header_logo{
+    display: block;
+    width:78px;
+}
+
+.header_logo-image{
+    width:100
+}
+
+.header_menu-link{
+    color: #F5F5F5;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.header_menu-item_active .header_menu-link{
+    text-decoration: none;
+}
+
+.cover_title{
+width:100%;
+color:#fff;
+font-family: "EB Garamond",serif;
+font-weight:400;
+font-size:72px;
+line-height: 1;
+ 
+}
+
+.accent-span{
+display:block;
+}
+
+.text-center{
+text-align: center;
+}
+
+.text-right{
+text-align: right;
+}
+
+.intro_heading{
+    display: flex;
+    justify-content: space-between;
+    gap:22px;
+    font-size: 16px;
+    color: #CCC;
+}
+
+.intro_title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.intro_date{
+    font-size: 16px;
+    line-height: 120%; /* 19.2px */
+    white-space:nowrap;
+}
+
+.intro_main-text{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    margin-top:24px;
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.content-section__subtitle{
+    margin-bottom: 32px;
+    font-family: "EB Garamond",serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 115%;
+}
+
+.content-section__introduction{
+    font-size: 20px;
+    margin-bottom: 32px;
+    line-height: 1.35; /* 135% */
+}
+
+.content-section__list{
+    display:flex;
+    flex-direction: column;
+    padding:0 0 0 16px;
+    gap:16px;
+    line-height: 1.35;
+}
+
+.content-section__list-item{
+
+}
+
+.content-section__list-accent{
+    font-weight: 700;
+}
+
+.card{
+    border-radius: 30px;
+    padding: 20px;
+    margin-top:32px;
+}
+
+.card-list{
+    list-style: none;
+}
+.card_title{
+    font-family: "EB Garamond";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 135%; 
+}
+
+.card_theme_dark{
+    color:#f5f5f5;
+    background-color: #343434;
+}
+
+.card_theme_bright{
+    color:#131313;
+    background:#FEE42A;
+}
+
+.card_author-photo{
+    display: block;
+    width:100px;
+    border-radius: 50%;
+}
+
+.card_author-name{
+    margin:8px 0 0;
+    font-weight: 700;
+}
+
+.footer_links{
+display: flex;
+gap: 16px;
+list-style: none;
+}
+
+.footer_copy{
+    color: #F5F5F5;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 21.6px */
+}
+
+.footer_links a{
+color:#f5f5f5;
+font-size: 14px;
+line-height: 1.25;
+text-decoration: none;
+}
